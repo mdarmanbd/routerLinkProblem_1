@@ -18,6 +18,7 @@ const blogDatas = ref([])
 
 <template>
   <section class="w-full">
+     Home view
     <div class="w-4/5 mx-auto">
       <div v-for="blogData in blogDatas.data" :key="blogData.id" class="w-3/4 mx-auto">
         <h2>{{ blogData.name }}</h2>
